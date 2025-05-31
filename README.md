@@ -43,6 +43,21 @@ ai-agents/
 
 ---
 
+```bash
+python -m venv ai-agents
+
+# On Windows:
+.\ai-agents\Scripts\activate
+
+# On MacOS/Linux:
+source ai-agents/bin/activate
+cd any sub-project
+pip install -r requirements.txt
+```
+
+
+
+
 ## 📽️ Demo Preview
 
 Full demo videos are available in the [`demos/`](./demos/) folder or [YouTube Playlist](https://www.youtube.com/yourchannel) *(coming soon)*.
