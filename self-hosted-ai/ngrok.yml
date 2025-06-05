@@ -1,0 +1,25 @@
+version: 3
+agent:
+  authtoken: <<your-token>>
+
+
+tunnels:
+  n8n:
+    proto: http
+    addr: 5678
+
+  flowise:
+    proto: http
+    addr: 3001
+
+  qdrant:
+    proto: http
+    addr: 6333
+
+  ollama:
+    proto: http
+    addr: 11434
+
+  webui:
+    proto: http
+    addr: 3000
